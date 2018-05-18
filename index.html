@@ -5,13 +5,27 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Tonis CV</title>
-  <link rel="stylesheet" href="./main.css">
+  <link rel="stylesheet" href="/styles/main.css">
 </head>
 <body>
 <top-container>
   <svg-el style="width:40%;" src="/images/ribbon.svg"></svg-el>
-  <svg-el style="width:100%;" src="/images/separator.svg"></svg-el>
+  <svg-el id="svg-separator" style="width:100%;" src="/images/separator.svg"></svg-el>
 </top-container>
+<body-container>
+  <column></column>
+  <column>
+    <column-title>Skills</column-title>
+    <skills-list>
+      <skill-column title="React" level="5" img="/images/react.svg"/>
+      <skill-column title="Docker" level="5" img="/images/docker.png"/>
+      <skill-column title="Node.js" level="5" img="/images/nodejs.png"/>
+    </skills-list>
+  </column>
+  <column>
+
+  </column>
+</body-container>
 </body>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/1.2.0/webcomponents-loader.js"></script>
 <script src="./main.js"  type="module" charset="utf-8"></script>

@@ -2,6 +2,7 @@ class Component extends HTMLElement {
   async connectedCallback() {
     const svg = await this.loadSvg();
     this.appendChild(svg);
+    this.dispatchEvent(new CustomEvent("load"));
   }
 
   loadSvg() {

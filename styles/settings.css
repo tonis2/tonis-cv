@@ -1,0 +1,31 @@
+:root {
+  --red: #fc5c65;
+  --green: #20bf6b;
+  --topaz: #0fb9b1;
+  --blue: #4b7bec;
+  --black: #4b6584;
+  --grey: #778ca3;
+  --white: #d1d8e0;
+  --yellow:#e3cfae;
+}
+
+
+@font-face {
+    font-family: "newspaper";
+    src: url("../fonts/newspaper.woff2") format('woff2');
+}
+
+@font-face {
+    font-family: "Klaber";
+    src: url("../fonts/Klaber.woff2") format('woff2');
+}
+
+@font-face {
+    font-family: "Deutschlander";
+    src: url("../fonts/Deutschlander.woff2") format('woff2');
+}
+
+@font-face {
+    font-family: "newsflash";
+    src: url("../fonts/newsflash.woff2") format('woff2');
+}
