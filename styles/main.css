@@ -1,4 +1,5 @@
 @import './settings.css';
+@import './skills.css';
 
 body {
   background: var(--yellow);
@@ -36,48 +37,19 @@ body-container column {
   flex-flow: column;
   border:solid 1px black;
   min-height: 500px;
+  margin: 40px 0;
 }
 
 body-container column column-title{
   display: flex;
   align-self: center;
   font-size: 40px;
+  transform: translateY(-45px);
 }
 
 skills-list {
   display: flex;
-  flex-flow: column;
+  flex-flow: row wrap;
   justify-content: center;
   align-items: center;
-}
-
-skill-column {
-  width: 80%;
-  height: 80px;
-  display: flex;
-  flex-flow: row;
-  align-items: center;
-  justify-content: center;
-}
-
-skill-info skill-title {
-  font-size: 25px;
-  margin-top: 5px;
-}
-
-skill-column img {
-  height: 60px;
-}
-
-skill-column skill-info {
-  display: flex;
-  flex-flow: column;
-  justify-content: center;
-  align-items: center;
-  margin: 0 8px;
-}
-
-skill-column skill-stars svg {
-  height: 20px;
-  margin: 0 4px;
 }

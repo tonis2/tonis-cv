@@ -1,0 +1,37 @@
+skill-column {
+  width: 30%;
+  height: 130px;
+  margin: 10px 0;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "newsflash";
+}
+
+skill-info skill-title {
+  font-size: 25px;
+  margin-top: 5px;
+}
+
+skill-column img {
+  height: 50px;
+  width: 50px;
+}
+
+skill-column skill-info {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px;
+}
+
+skill-column skill-stars {
+  margin: 10px 0;
+}
+
+skill-column skill-stars svg {
+  height: 20px;
+  margin: 0 4px;
+}
