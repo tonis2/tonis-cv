@@ -13,7 +13,7 @@
   <textPath xlink:href="#line4" startOffset="20">
       <tspan dx="5" dy="-5"  fill="black" font-size="11">NO.11</tspan>
   </textPath>
-  <textPath xlink:href="#line4" startOffset="400">
+  <textPath xlink:href="#line4" startOffset="420">
       <tspan id="header-date" dx="5" dy="0"  fill="black"  font-size="11">DATE</tspan>
   </textPath>
   <textPath xlink:href="#line4" startOffset="750">

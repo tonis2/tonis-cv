@@ -15,8 +15,10 @@ skill-info skill-title {
 }
 
 skill-column img {
-  height: 50px;
-  width: 50px;
+  height: 7vw;
+  width: 7vw;
+  max-height: 50px;
+  max-width: 50px;
 }
 
 skill-column skill-info {
@@ -32,6 +34,7 @@ skill-column skill-stars {
 }
 
 skill-column skill-stars svg {
-  height: 20px;
+  height: 2vw;
+  max-height: 15px;
   margin: 0 4px;
 }

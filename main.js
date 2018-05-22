@@ -1,7 +1,7 @@
 import "/modules/svg.js";
 import "/modules/skill.js";
 
-const getTodaysDate = () =>  new Date(Date.now()).toLocaleString();
+const getTodaysDate = () =>  new Date(Date.now()).toLocaleString().split(",")[0];
 const dateHeader = document.getElementById("svg-separator");
 
 dateHeader.onload = (event) => {

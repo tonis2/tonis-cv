@@ -1,13 +1,12 @@
 @import './settings.css';
 @import './skills.css';
-
 body {
   background: var(--yellow);
   display: flex;
   flex-flow: column;
   justify-content: center;
   align-items: center;
-  margin:0;
+  margin: 0;
   padding: 0;
   font-family: "Deutschlander";
 }
@@ -27,24 +26,21 @@ svg-el {
 }
 
 body-container {
- display: grid;
- grid-template-columns: 20vw 50vw 20vw;
- grid-gap: 10px;
+  display: flex;
+  flex-flow: column;
 }
 
 body-container column {
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-flow: column;
-  border:solid 1px black;
   min-height: 500px;
   margin: 40px 0;
 }
 
-body-container column column-title{
-  display: flex;
-  align-self: center;
-  font-size: 40px;
-  transform: translateY(-45px);
+column #column-title {
+  font-family: "newspapers";
 }
 
 skills-list {
