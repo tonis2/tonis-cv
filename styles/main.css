@@ -79,7 +79,7 @@ links-element {
   height: 30vmin;
   width: 30vmin;
   background: var(--yellow);
-  background-image: url("/images/border_illustration.svg");
+  background-image: url("../images/border_illustration.svg");
   background-size: contain;
   background-repeat: no-repeat;
 }
