@@ -1,3 +1,7 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css";
+@import "https://unpkg.com/mustard-ui@latest/dist/css/mustard-ui.min.css";
+
+
 :root {
   --red: #fc5c65;
   --green: #20bf6b;
@@ -7,17 +11,13 @@
   --grey: #778ca3;
   --white: #d1d8e0;
   --yellow:#e3cfae;
+  --yellow2:#f1c40f;
 }
 
 
 @font-face {
     font-family: "newspaper";
     src: url("../fonts/newspaper.woff2") format('woff2');
-}
-
-@font-face {
-    font-family: "Klaber";
-    src: url("../fonts/Klaber.woff2") format('woff2');
 }
 
 @font-face {

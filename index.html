@@ -1,31 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Tonis CV</title>
-  <link rel="stylesheet" href="./styles/main.css">
-</head>
-<body>
-<top-container>
-  <svg-el style="width:40%;" src="./images/ribbon.svg"></svg-el>
-  <svg-el id="svg-separator" style="width:100%;" src="./images/separator.svg"></svg-el>
-</top-container>
-<body-container>
-  <column>
-    <svg-el id="column-title" style="width:10vw;height:auto;"  src="./images/flag.svg"></svg-el>
-    <skills-list>
-      <skill-column title="React" level="5" max="6" img="./images/react.svg"></skill-column>
-      <skill-column title="Docker" level="4" max="6" img="./images/docker.png"></skill-column>
-      <skill-column title="Node.js" level="5" max="6" img="./images/nodejs.png"></skill-column>
-      <skill-column title="SQL" level="4" max="6" img="./images/sql.png"></skill-column>
-      <skill-column title="Devops" level="4" max="6" img="./images/linux.png"></skill-column>
-      <skill-column title="Webdesign" level="3" max="6" img="./images/pencil.svg"></skill-column>
-    </skills-list>
-  </column>
-</body-container>
-</body>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/1.2.0/webcomponents-loader.js"></script>
-<script src="./main.js"  type="module" charset="utf-8"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Tonis CV</title>
+    <link rel="stylesheet" href="./styles/main.css" />
+  </head>
+  <body>
+    <top-container>
+      <svg-el style="width:40%;" src="./images/ribbon.svg"></svg-el>
+      <svg-el
+        id="svg-separator"
+        style="width:100%;"
+        src="./images/separator.svg"
+      ></svg-el>
+    </top-container>
+    <body-container>
+      <column>
+        <title-element class="column-title" title="Skills"></title-element>
+        <skills-list>
+          <skill-column
+            title="React"
+            level="5"
+            max="6"
+            img="./images/react.svg"
+          ></skill-column>
+          <skill-column
+            title="JavaScript"
+            level="5"
+            max="6"
+            img="./images/es6.png"
+          ></skill-column>
+          <skill-column
+            title="Webdesign"
+            level="3"
+            max="6"
+            img="./images/pencil.svg"
+          ></skill-column>
+          <skill-column
+            title="Docker"
+            level="4"
+            max="6"
+            img="./images/docker.png"
+          ></skill-column>
+          <skill-column
+            title="Node.js"
+            level="5"
+            max="6"
+            img="./images/nodejs.png"
+          ></skill-column>
+          <skill-column
+            title="Databases"
+            level="4"
+            max="6"
+            img="./images/sql.png"
+          ></skill-column>
+          <skill-column
+            title="Devops"
+            level="4"
+            max="6"
+            img="./images/linux.png"
+          ></skill-column>
+        </skills-list>
+      </column>
+
+      <column>
+        <title-element
+          class="column-title"
+          title="Experience"
+          text-size="120"
+        ></title-element>
+        <div class="work stepper">
+          <div class="step">
+            <p class="step-number">1</p>
+            <p class="step-title">Axinom</p>
+            <div class="tools">
+              <span class="tools-used">Tools used:</span>
+              <ul class="tags">
+                  <li class="tag tag-green">Angular.js</li>
+                  <li class="tag tag-green">HTML5 video players</li>
+              </ul>
+            </div>
+            <p class="description">
+              In Axinom i worked closely with a team of 3 people to build Media platforms with <strong>HTML5</strong> and <strong>Angular.js</strong> </br>
+              The Media platform was used on airplains and trains, so people could read news and watch movies while travelling.
+            </p>
+          </div>
+          <div class="step">
+            <p class="step-number">2</p>
+            <p class="step-title">1&1 IONOS</p>
+            <div class="tools">
+              <span class="tools-used">Tools used:</span>
+              <ul class="tags">
+                  <li class="tag tag-green">Node.js</li>
+                  <li class="tag tag-green">Docker</li>
+                  <li class="tag tag-green">Rancher</li>
+                  <li class="tag tag-green">PostgresSQL</li>
+              </ul>
+            </div>
+            <p class="description">
+              1&1 IONOS is a cloud computing providing company in <strong>Berlin</strong>, i worked there for 2 years, together with great developers and learned a lot. </br>
+              My team consisted of 3 people Lead Node.js developer, me as Junior Node.js developer and Tester. </br>
+              We had to completely rewrite the Companys billing system, that counts how much a customer really has to pay for the server that they are renting. </br>
+              I also had to build a front-end application with <strong>React.js</strong> for the Accounting team, so they could view statistics for each user.
+            </p>
+          </div>
+          <div class="step">
+            <p class="step-number">3</p>
+            <p class="step-title">Alphablues</p>
+            <div class="tools">
+              <span class="tools-used">Tools used:</span>
+              <ul class="tags">
+                  <li class="tag tag-green">React.js</li>
+                  <li class="tag tag-green">Python</li>
+                  <li class="tag tag-green">ES6 JavaScript</li>
+              </ul>
+            </div>
+            <p class="description">
+              Alphablues provides chat clients for enterprise customers, we have a webclient where customers can train their <strong>AI bots</strong> and webclient where human customer service could chat with the customer when Bot can't handle the problem. </br> 
+              We also provide a <strong>Javascript SDK</strong> so clients could build their own chatclient or we give them our premade chat client, what is built with <strong>React.js</strong>. </br>
+              When i joined Alphablues i had to rebuild their React.js chat-client because it had become unmaintainable. </br> 
+              I completely rebuilt their chat, the chat webclient size went down 75% and the code is now scalable and maintainable.
+            </p>
+          </div>
+        </div>
+      </column>
+    </body-container>
+  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/1.2.0/webcomponents-loader.js"></script>
+  <script src="./main.js" type="module" charset="utf-8"></script>
 </html>

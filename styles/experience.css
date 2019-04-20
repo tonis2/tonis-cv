@@ -1,0 +1,51 @@
+.stepper {
+  widows: 100%;
+}
+
+.stepper .step {
+  border-left: 2px solid #bdbdbd;
+}
+
+.stepper .step .step-number {
+  width: 4vmin;
+  height: 4vmin;
+  top: -11px;
+}
+
+.stepper .step .step-title {
+  font-weight: 600;
+  font-size: 3.5vmin;
+}
+
+.stepper .step  {
+  font-family: "newspapers";
+}
+
+.tools-used {
+    font-size: 2.3vmin;
+    font-weight: 600;
+    font-family: "newspapers";
+}
+
+.tools {
+    display: grid;
+    grid-template-columns: 120px auto;
+    align-items: center;
+    justify-items: start;
+}
+
+.tools .tags .tag {
+    background: #4caf50;
+    font-size: 1.8vmin;
+    font-weight: 200;
+    font-family: "Open Sans",sans-serif;
+    user-select:none;
+    color:var(--white);
+}
+
+.work .description {
+  font-family: "Open Sans",sans-serif;
+  font-weight: 200;
+  font-size: 2.2vmin;
+  margin-top: 10px;
+}
