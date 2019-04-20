@@ -60,3 +60,39 @@ skills-list {
   justify-content: center;
   align-items: center;
 }
+
+links-element {
+  position: fixed;
+  top:5vh;
+  right: 57px;
+  width: auto;
+  z-index: 555;
+}
+
+#cv-links {
+  display:grid;
+  position: -webkit-sticky;
+  position: sticky;
+  grid-template-columns:1fr;
+  grid-auto-rows: max-content;
+  grid-template-rows: 6vmin 5vmin 5vmin 5vmin;
+  height: 30vmin;
+  width: 30vmin;
+  background: var(--yellow);
+  background-image: url("/images/border_illustration.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#cv-links-illustration {
+  width: 5vw;
+  height:auto;
+}
+
+#cv-links .links-title {
+  font-size: 5vmin;
+}
+
+#cv-links a {
+  font-size: 3.5vmin;
+}

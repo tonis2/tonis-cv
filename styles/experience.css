@@ -40,7 +40,8 @@
     font-weight: 200;
     font-family: "Open Sans",sans-serif;
     user-select:none;
-    color:var(--white);
+    color:white;
+    box-shadow: none;
 }
 
 .work .description {
