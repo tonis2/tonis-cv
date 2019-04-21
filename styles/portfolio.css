@@ -1,0 +1,23 @@
+#portfolio-items {
+    display: grid;
+    grid-template-columns: repeat(3,0.35fr);
+    grid-column-gap: 3vmin;
+    grid-auto-rows: max-content;
+    width: 100%;
+}
+
+#portfolio-items .portfolio-column {display: grid;grid-row-gap: 1vmin;grid-template-rows: 5vmin auto auto 20px;/* grid-auto-rows: max-content; */}
+
+#portfolio-items .portfolio-column .portfolio-item-display {
+    width: 40vmin;
+    height: 30vmin;
+    display: none;
+}
+
+#portfolio-items .portfolio-column .portfolio-item-title {font-size: 4vmin;font-family: "Deutschlander";}
+
+#portfolio-items .portfolio-column .portfolio-item-description {font-size: 2vmin;font-family: "Open Sans",sans-serif;}
+
+#portfolio-items .portfolio-column a {
+    font-size: 4vmin;
+}
