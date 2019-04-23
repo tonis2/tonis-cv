@@ -9,9 +9,9 @@ class Links extends HTMLElement {
     render() {
       return HTML`<section id="cv-links">
                       <span class="links-title">Get in contact now!</span>
-                      <a href="https://www.linkedin.com/in/tonis-anton-776a15145/">LinkedIn</a>
-                      <a href="https://github.com/tonis2">Github</a>
-                      <a href="mailto:geotrupes.dev@gmail.com">E-mail</a>
+                      <a target="_blank" href="https://www.linkedin.com/in/tonis-anton-776a15145/">LinkedIn</a>
+                      <a target="_blank" href="https://github.com/tonis2">Github</a>
+                      <a target="_blank" href="mailto:geotrupes.dev@gmail.com">E-mail</a>
                   </section>`;
     }
   }
