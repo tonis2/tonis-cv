@@ -1,5 +1,5 @@
 .stepper {
-  widows: 100%;
+  width: 90%;
 }
 
 .stepper .step {
@@ -20,6 +20,7 @@
 
 .stepper .step  {
   font-family: "newspapers";
+  /* font-size: 120%; */
 }
 
 .tools-used {
